@@ -92,3 +92,19 @@ h3 {
 .colonna-5 {
   margin-top: 25px;
 }
+
+#links {
+background-color: white;
+width: 60%;
+height: 150px;
+margin-top: 25px;
+margin-bottom: 20px;
+margin-left: 20%;
+border-radius: 5px;
+}
+
+
+h6 {
+  text-align: center;
+  color: lightgrey;
+}
