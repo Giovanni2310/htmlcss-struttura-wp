@@ -15,6 +15,7 @@ body {
   border: 8px solid white;
   width: 100%;
   height: 450px;
+  margin-top: 20px;
 }
 
 h2 {
@@ -31,6 +32,7 @@ header .img-logo{
 }
 
 nav {
+  margin-bottom: 8px;
   background-color: grey;
   text-align: center;
   width: 100%
@@ -47,4 +49,46 @@ ul.menu li a {
   text-decoration: none;
   font-size: 15px;
   color: white;
+}
+
+ul.menu li:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.colonna {
+  float: left;
+}
+
+.colonna-1-of-3, .colonna-3-of-3 {
+  width: 20%
+  }
+
+.colonna-2-of-3 {
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h3 {
+  margin-bottom: 25px;
+}
+.box {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.colonna-4 {
+  margin-top: 25px;
+}
+
+.colonna-5 {
+  margin-top: 25px;
 }
